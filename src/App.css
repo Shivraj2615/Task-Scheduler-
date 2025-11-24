@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TaskScheduler {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1,h2 {
+  margin-top: 25px;
+  text-align: center;
+  color: #333;
+}
+
+.TaskForm {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.TaskForm input,
+.TaskForm select {
+  padding: 8px;
+  width: 180px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  outline: none;
+}
+
+.TaskForm button {
+  background-color: #0066ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.TaskForm button:hover {
+  background-color: #0051cc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0066ff;
+  color: white;
+  font-weight: bold;
+}
+
+tr:hover {
+  background: #f2f7ff;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.priority-high {
+  color: #e60000;
+  font-weight: bold;
+}
+
+.priority-medium {
+  color: #ffa500;
+  font-weight: bold;
+}
+
+.priority-low {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.mark-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.mark-btn:hover {
+  background-color: #218838;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
