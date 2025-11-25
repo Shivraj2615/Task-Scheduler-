@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 export default function TaskForm({addTask}) {
   let [newTask, setNewTask] = useState("");
-  let [priority, setPriority] = useState("top");
+  let [priority, setPriority] = useState("high");
   let [deadline, setDeadline] = useState("");
 
   const handleSubmit = () => {
@@ -31,7 +31,7 @@ export default function TaskForm({addTask}) {
     addTask(taskObj);
 
     setNewTask("");
-    setPriority("top");
+    setPriority("high");
     setDeadline("");
   };
 

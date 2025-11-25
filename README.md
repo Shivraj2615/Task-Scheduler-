@@ -30,8 +30,8 @@ and marking tasks as completed once done.
 
 ## 📸 Screenshots (Add after UI polish)
 
-### 🏠 Task Form + Upcoming Tasks UI
-<img src="src\assets\upcomingtasks.png" alt="Home UI" width="600"/>
+### 🏠 Task Form 
+<img src="src\assets\Home.png" alt="Home UI" width="600"/>
 
 ### ✔️ Completed Tasks UI
 <img src="src\assets\completedtasks.png" alt="Home UI" width="600"/>
